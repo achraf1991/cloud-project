@@ -1,0 +1,130 @@
+img.img_logo {
+  width: 120px;
+}
+.navbar {
+  border-bottom: 6px solid;
+  box-shadow: 15px 16px 29px;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul {
+  font-size: x-large;
+  margin-top: 50px;
+  display: flex;
+  gap: 20%;
+  margin-right: 30% !important;
+  height: 100px;
+  list-style: none;
+}
+.navbar ul a {
+  color: black;
+  text-decoration: none;
+}
+.navbar ul a :hover {
+  color: red;
+}
+.img {
+  margin-top: -30px;
+}
+.log {
+    margin-left: 40%;
+  margin-top: 5%;
+  width: 20%;
+  height: 50vh;
+  text-align: center;
+  box-shadow: 12px 17px 41px black;
+  border: 2px solid black;
+  border-radius: 60px;
+}
+.contact {
+  margin: 10% 21% 5% 33%;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  border: 2px solid black;
+  padding: 30px;
+  border-radius: 40px !important;
+  box-shadow: 12px 17px 41px black;
+}
+.contact input {
+  border-radius: 10px;
+  width: 50 vh;
+  height: 4vh;
+}
+.acceuil {
+  background-image: url("C:\Users\DELL\Desktop\my project\projetone\public\home.jpg");
+  min-height: calc(100vh - 15vh);
+}
+.acceuil h1 {
+  padding: 15vh;
+  margin-left: 20vh;
+  color: rgb(170, 13, 13);
+}
+.acceuil h3 {
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 1.5rem;
+  margin-left: 30vh;
+}
+.sb {
+  text-align: center;
+  padding: 20vh;
+  width: "30%";
+  height: "10vh";
+  box-shadow: 12px 17px 41px black !important;
+}
+.articles {
+  text-align: center;
+  padding: 10vh;
+ }
+.cardCam {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 60px;
+  margin: 40px;
+  box-shadow: 12px 17px 41px black;
+  width: 500px;
+}
+img.image_product {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 75px;
+}
+.articles {
+  display: flex;
+}
+.articles_details {
+  margin: 10% 21% 0 30%;
+  text-align: center;
+}
+.footer {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+.stylebtn {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(139, 58, 58);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.stylebtn :hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.stylebtn :active {
+    box-shadow: inset -2px -2px 3px rgba(109, 35, 35, 0.6),
+                inset 2px 2px 3px rgba(170, 21, 21, 0.6);
+}
